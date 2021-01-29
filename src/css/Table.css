@@ -1,0 +1,22 @@
+.table{
+  height: 400px;
+  width: 100%;
+  background-color: rgb(226, 226, 226);
+  overflow-y: scroll;
+}
+.table>table{
+  width: 100%;
+}
+
+.table>table >tbody> tr{
+  display: flex;
+  justify-content: space-between;
+}
+
+.table td{
+  padding: 0.5rem;
+}
+
+.table >table>tbody> tr:nth-of-type(odd){
+  background-color: rgb(236, 219, 220);
+}
